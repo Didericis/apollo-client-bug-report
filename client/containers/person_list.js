@@ -14,7 +14,7 @@ const withPeople = compose(
       people(input: $input) { id name }
     }`,
     {
-      options: ({ match: { params: { letter } } }) => {
+      options: ({ params: { letter } }) => {
         const vars = { input: { letter } };
         console.log('VARIABLES', vars)
         return { variables: vars };
