@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.person {
+  border-radius: 2rem;
+  border: 1px solid white;
+  font-size: .65rem;
+  font-family: 'Lato', sans-serif;
+  padding: 1rem;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+}
+
+.person button {
+  cursor: pointer;
+}
+
+.person h1 {
+  flex: 1;
+}
+
+.main h1 {
+  margin: 0;
+}

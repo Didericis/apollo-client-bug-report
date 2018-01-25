@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+}
+
+.main button {
+  flex: 1;
+}

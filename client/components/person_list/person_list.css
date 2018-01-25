@@ -1,0 +1,7 @@
+.main {
+  background-color: #E5B181;
+}
+
+.person + .person {
+  margin-top: .5rem;
+}
